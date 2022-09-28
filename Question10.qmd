@@ -1,0 +1,35 @@
+---
+title: "Question10"
+format: revealjs
+editor: visual
+---
+
+# Demo Presentation- Question 10
+
+## Using the boxplot() function on a data set
+
+I am using the inbuilt iris data set to create two demo boxplots using the boxplot() function.
+
+## The iris data set
+
+This is what the iris dataset looks like:
+
+```{r}
+head(iris)
+```
+
+## Boxplot 1
+
+Using the boxplot() function on the sepal width column:
+
+```{r}
+boxplot(iris$Sepal.Width)
+```
+
+## Boxplot 2
+
+Using the boxplot() function on the sepal length column:
+
+```{r}
+boxplot(iris$Sepal.Length)
+```
